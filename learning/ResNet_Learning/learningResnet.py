@@ -6,6 +6,7 @@ train_data = dataset['train']
 
 import torch
 from torchvision import transforms
+import torch.nn.functional as F
 
 # Define preprocessing steps
 preprocess = transforms.Compose([
@@ -49,7 +50,6 @@ train_data = [(preprocess_sample(sample)) for sample in train_data]
 
 
 #%%
-import torch.nn.functional as F
 
 # Loss function
 def dice_loss(pred, target, smooth = 1.):
