@@ -36,3 +36,4 @@ Task:
   such as ResNet, DenseNet, or EfficientNet, and train a model to classify the images into normal, benign, and
   malignant categories. For the segmentation task, utilize semantic segmentation architectures like U-Net, DeepLab, or
   FCN, and train a model to accurately delineate the boundaries of breast masses in the ultrasound images.
+# Breast-Cancer-Ultrasound-Image-Classification-and-Segmentation
